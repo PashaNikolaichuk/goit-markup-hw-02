@@ -19,6 +19,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-transform: capitalize;
 }
 .header-logo .studio-logo {
   color: #2e2f42;
@@ -70,9 +71,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 button {
@@ -105,6 +109,7 @@ button {
 /* section 3 */
 
 .section-team {
+  background-color: #f4f4fd;
 }
 
 .team {
@@ -114,11 +119,13 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
 }
 .team-iteam {
+  background-color: #ffffff;
 }
 .team-photo {
 }
@@ -151,6 +158,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .porfolio-link {
@@ -185,6 +193,7 @@ button {
 
 .footer-logo .studio-logo {
   color: #f4f4fd;
+  text-transform: uppercase;
 }
 
 .footer-text {
@@ -194,7 +203,7 @@ button {
   color: #f4f4fd;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -203,4 +212,4 @@ button {
   padding: 0;
   white-space: nowrap;
   overflow: hidden;
-}
+} */
