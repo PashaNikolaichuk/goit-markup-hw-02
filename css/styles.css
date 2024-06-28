@@ -19,7 +19,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .header-logo .studio-logo {
   color: #2e2f42;
@@ -59,7 +59,7 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -193,7 +193,6 @@ button {
 
 .footer-logo .studio-logo {
   color: #f4f4fd;
-  text-transform: uppercase;
 }
 
 .footer-text {
@@ -202,14 +201,3 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-} */
